@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/photo/photo",
+    "pages/about/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "大囍婚纱馆",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#573892",
+    "backgroundColor": "#fff",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页"
+    },{
+      "pagePath": "pages/photo/photo",
+      "text": "作品"
+    }, {
+      "pagePath": "pages/about/about",
+      "text": "关于"
+    }]
+  },
+  "usingComponents": {},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
