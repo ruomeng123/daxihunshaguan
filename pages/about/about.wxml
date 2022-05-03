@@ -1,2 +1,14 @@
 <!--pages/about/about.wxml-->
-<text>关于</text>
+<view class="header">
+	<view class="logo">
+		<van-image class="img" width="6rem" height="6rem" src="/images/logo11.png" />
+	</view>
+	<view class="text">
+		<text class="name">大囍婚纱馆</text>
+		<text class="slogan">遇见大囍 双份喜气</text>
+		<text class="location">浙江 慈溪</text>
+	</view>
+</view>
+<view class="container">
+
+</view>

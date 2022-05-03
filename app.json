@@ -1,32 +1,46 @@
 {
-  "pages":[
+  "pages": [
+    "pages/about/about",
     "pages/home/home",
-    "pages/photo/photo",
-    "pages/about/about"
+    "pages/photo/photo"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "大囍婚纱馆",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "custom": true,
-    "color": "#000000",
-    "selectedColor": "#573892",
+    "color": "#000",
+    "selectedColor": "#ab111e",
     "backgroundColor": "#fff",
-    "list": [{
-      "pagePath": "pages/home/home",
-      "text": "首页"
-    },{
-      "pagePath": "pages/photo/photo",
-      "text": "作品"
-    }, {
-      "pagePath": "pages/about/about",
-      "text": "关于"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png"
+      },
+      {
+        "pagePath": "pages/photo/photo",
+        "text": "客片",
+        "iconPath": "images/image.png",
+        "selectedIconPath": "images/image-active.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "images/fish.png",
+        "selectedIconPath": "images/fish-active.png"
+      }
+    ]
   },
-  "usingComponents": {},
-  "style": "v2",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index",
+    "van-image": "@vant/weapp/image/index"
+  },
   "sitemapLocation": "sitemap.json"
 }
